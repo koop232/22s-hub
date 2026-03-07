@@ -184,7 +184,5 @@ task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
 end)
 
-task.spawn(function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/0fbe1cfb1005a43bbfeb46cd458b7f09.lua"))()
-end)
+
 
